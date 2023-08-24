@@ -1,0 +1,86 @@
+Nama	: Trisna Adisti
+Kelas	: B
+
+--Analisis Git--
+
+1. Pengenalan
+  - Git adalah singkatan dari Group Inclusive Tour.
+  - Git merupakan VCS (Version Control System) yang gratis serta open source 
+  - Git dirancang untuk menangani segala project yang dikerjakan dan memungkinkan developer untuk bekerja melaksanakan suatu project secara bersama-sama.
+  - Terdapat dua sistem Git: Centralized dan Distributed.
+    1) Centralized Git
+  Git Centralized hanya menggunakan satu server untuk menyimpan data proyek. Sistem ini   membutuhkan koneksi jaringan untuk mengakses data proyek. Kekurangan dari sistem ini ialah   risiko kehilangan data jika terjadi kerusakan pada server.
+    2) Distributed Git
+  Git Distributed menyimpan data proyek di lokal dan di server. Lebih aman karena ada backup data proyek di lokal. Melindungi terhadap risiko kehilangan data jika server mengalami kerusakan.
+
+2. Fitur-Fitur Git
+  - Version control: Memantau dan mengelola perubahan pada source code.
+  - Git Branch: Menggunakan cabang untuk menambah fitur atau memperbaiki bug tanpa mempengaruhi kode di repositori utama. 
+  - Merging: Menggabungkan perubahan dari cabang ke branch utama.
+  - Staging area: Memilih perubahan yang akan di-commit ke repositori.
+  - Git Rebase: Menggeser commit base.
+  - Hooks: Script yang otomatis dijalankan pada peristiwa tertentu.
+  - GUI tools: Memudahkan penggunaan Git melalui antarmuka grafis.
+
+3. Keunggulan dan kelemahan Git
+  1) Keunggulan Git
+  - Dapat mengelola versi kode sumber dengan mudah dan efisien 
+  - Dapat melakukan branching dan merging dengan mudah dan aman
+  - Dapat melacak perubahan dan siapa yang membuat perubahan pada source code
+  - Memiliki performa yang cepat dan stabil dalam pengelolaan kode sumber yang besar
+
+  2) Kekurangan Git
+  - Memiliki fitur yang kompleks dan terkadang membingungkan bagi pengguna yang kurang berpengalaman     
+  - Memerlukan pemahaman yang baik tentang konsep dasar seperti repository, commit, branching, dan merging
+  - Sulit digunakan untuk pengelolaan file biner atau non-teks, seperti gambar atau video
+
+4. Instalasi Git
+  - Buka halaman download Git di https://git-scm.com/downloads
+  - Pilih versi Git yang sesuai untuk sistem operasi Anda (Windows, Mac, atau Linux)
+  - Klik link download untuk mulai mengunduh instalator Git.
+  - Setelah unduhan selesai, buka file instalator dan ikuti instruksi yang muncul pada layar.
+  - Selama proses instalasi, Anda dapat memilih komponen yang ingin diinstal dan direktori tempat Git akan diinstal.
+  - Setelah instalasi selesai, Anda dapat memverifikasi instalasi Git dengan membuka terminal (command prompt di Windows) dan mengetikkan perintah git --version. Jika Git terinstal dengan benar, versi Git yang terpasang akan ditampilkan.
+
+
+--Analisis Gitlab--
+
+1. Pengenalan
+  - Gitlab adalah layanan akses remote ke Git repositories.
+  - Mendukung Gitlab Enterprise Edition, Gitlab.com, Gitlab CE, dan Gitlab CI.
+  - Keunggulan meliputi CI/CD yang mudah, keamanan tinggi, dan fitur kolaborasi yang unggul.
+  - Kekurangan meliputi kurva pembelajaran tinggi dan konfigurasi yang rumit.
+
+2. Membuat Repository di Gitlab
+  - Login ke akun GitLab.
+  - Klik "New Project".
+  - Pilih "Create blank project".
+  - Isi nama dan deskripsi proyek.
+  - Tentukan visibilitas (public atau private).
+  - Pilih opsi "Initialize repository with a README" jika perlu.
+  - Klik "Create project" untuk membuat proyek baru.
+
+
+--Analisis Gitlab--
+
+1. Pengenalan
+  - Github adalah layanan hosting Git repository.
+  - Mendukung forking, pull request, dan merging.
+  - Github memiliki banyak integrasi dengan aplikasi lain.
+  - Keunggulan Github ialah gratis digunakan; Mampu melacak perubahan dan akses proyek orang lain; Integrasi dengan banyak aplikasi; Mendukung proyek private dan public.
+  - Kekurangan Github ialah kamanan terbatas pada repositori pribadi; Memerlukan koneksi internet yang stabil; Batasan untuk repositori pribadi dalam jumlah besar.
+
+2. Membuat Repository di Github
+  - Login ke akun Github.
+  - Klik "+" dan pilih "New repository".
+  - Isi nama, deskripsi, visibilitas, dan opsional README.
+  - Pilih lisensi.
+  - Klik "Create Repository".
+  - Perbedaan Gitlab dan Github
+
+
+--Perbedaan Gitlab dan Github--
+
+Workflow: Github menekankan kecepatan, sementara Gitlab menekankan reliabilitas.
+Harga dan Paket Premium: Kedua platform memiliki opsi premium dengan harga yang berbeda.
+Integrasi dengan Aplikasi Lain: Github memiliki lebih banyak integrasi daripada Gitlab.
